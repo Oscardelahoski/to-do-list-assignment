@@ -7,6 +7,16 @@ todolistButton.addEventListener ('click', function () {
     createItem (item)
 })
 
+function emptyInput () {
+    if (item.value == '') {
+        alert ('This field cannot be empty');
+        return false;
+    }
+}
+
+todolistButton.addEventListener ('click', emptyInput)
+
+
 function displayItems (){
     let items = ''
     for (let i = 0; i < itemsArray.length; i++ ){
