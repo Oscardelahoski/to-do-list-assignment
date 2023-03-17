@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.update-controller {
+    display: none;
+}
+
+body {
+    background-color: black;
+}
+
+#main-container {
+    width: 80%;
+    margin: auto;
+    background-color: aqua;
+    padding: 100px 100px;
+
+}
+
+#container {
+width: 50%;
+margin: auto;
+background-color: white;
+text-align: center;
+/* margin-top: 100px; */
+padding: 20px 0px;
+
+}
+
+h1 {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+/* #date {
+    background-color: aquamarine;
+    padding-bottom: 20px;
+} */
+
+#to-do-input {
+    margin: 20px 0px 50px 0px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+#to-do-input > input {
+    border: solid 1px aqua;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+#enter-button {
+    background-color: aqua;
+    padding: 10px 20px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.input-controller {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-controller > textarea {
+    padding: 10px 5px 10px 5px;
+    width: 70%;
+    margin-bottom: 10px;
+    background-color: rgba(214, 248, 248, 0.911);
+    color: black;
+    border-radius: 5px;
+}
+
+.deleteBtn {
+    padding-right: 20px;
+    color: red;
+}
+
+.editBtn {
+    color: blue
+}
+
+.update-controller {
+    padding-bottom: 10px;
+}
+
+.saveBtn {
+    background-color: aqua;
+    padding: 10px 20px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.cancelBtn {
+    background-color: aqua;
+    padding: 10px 20px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
